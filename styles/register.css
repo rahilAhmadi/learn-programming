@@ -129,6 +129,9 @@ label {
     -o-border-radius: 5px;
     background-color: var(--background);
 }
+.form-control:focus{
+    border: 2px solid var(--acent);
+}
 input[type=submit]{
     background-color: var(--acent);
     color: var(--white);
